@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!--navbar-->
   <div class="container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="logo.png" alt=""><h2 style="float: right; margin-top: -4px;">-MART</h2></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="#">Shoes</a>
@@ -26,7 +31,7 @@
       </div>
     </nav>
   </div>
-
+  <!--carosuel image sliding-->
   <div class="container">
     <div id="carouselExampleAutoplaying" class="carousel slide carousel-bg" data-bs-ride="carousel">
       <div class="carousel-inner">
