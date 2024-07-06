@@ -45,4 +45,10 @@
 .card{
     border: none;
     box-shadow: 7px 7px 12px lightslategray;
+
+    border-radius: 12px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
 }
