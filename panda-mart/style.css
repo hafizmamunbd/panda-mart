@@ -25,3 +25,20 @@
 .btn-outline-secondary{
     border-radius: 15px;
 }
+.cat1, .cat2, .cat3{
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.cat1{
+    background-image: linear-gradient(to left, rgb(232, 248, 2) 0%, orange 100%);
+}
+.cat2{
+    background-image: linear-gradient(to left, #df739c 0%, rgb(97, 10, 10) 100%);
+}
+.cat3{
+    background-image: linear-gradient(to left, rgb(98, 98, 221) 0%, rgb(19, 19, 129) 100%);
+}
+.categories img{
+    width: 100px;
+}
