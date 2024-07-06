@@ -56,6 +56,12 @@
     background-color: #feeae9;
     height: 300px;
 }
+.bg-color h5{
+    color: rgb(123, 122, 122);
+}
 span{
     text-decoration:none;
+}
+footer{
+    text-align: center;
 }
