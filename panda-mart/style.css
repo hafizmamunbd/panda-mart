@@ -42,3 +42,7 @@
 .categories img{
     width: 100px;
 }
+.card{
+    border: none;
+    box-shadow: 7px 7px 12px lightslategray;
+}
